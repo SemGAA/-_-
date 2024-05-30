@@ -1,0 +1,26 @@
+
+section{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 2vw;
+
+}
+.change{
+    display: grid;
+    grid-template-columns: 2fr;
+}
+.change label{
+    display: grid;
+    grid-template-columns: 9vw max-content;
+}
+.change div {
+    display: grid;
+
+    grid-template-columns:  1fr;
+
+}
+footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+}
